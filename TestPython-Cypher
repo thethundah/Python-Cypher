@@ -1,0 +1,12 @@
+#grab message to be reversed from user
+message = input('Enter message: ')
+translated = ''
+i = len(message) - 1
+
+# will loop for the whole length of the message
+while i >= 0:
+    #will start with the end
+    translated = translated + message[i]
+    i = i - 1
+#prints out reversed message
+print(translated)
